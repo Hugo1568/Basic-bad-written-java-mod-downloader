@@ -1,0 +1,45 @@
+## -------------------MODS-------------------------
+-Baubles
+-BloodMagic
+-NotEnoughItems
+-EnchantingPlus
+-NotEnoughCats
+-OpenBlocks
+-OpenModsLib
+-PlayerAPI
+-SpecialMobs
+-DamageIndicatorsMod
+-Treecapitator
+-bspkrsCore
+-Deconstruction
+-Aether 2
+-Backpacks
+-Chococraft
+-Weather2 Mod
+-Coroutil
+-Forgeessentials
+-WorldEditForge
+-JourneyMap
+-Natura
+-TwilightForest
+-Biomes You Go
+-Iron Furnaces mod
+-IronChest
+-Inventory Tweaks
+-HammerX
+-SingPost
+-EnchancedArmament
+-LootSlashConquer
+-Rouguelike Dungeons
+-R2S Radio
+-Daedalus' Labrinth
+-Hwyla
+-Ice and Fire
+-Mowzie's Mobs
+-Mo' Creatures Mod
+
+## A PETICIÓN (No instalados)
+
+-Dinosaurs Mod
+-Caguama Mod
+-ELECTROBLOB’S WIZARDRY
