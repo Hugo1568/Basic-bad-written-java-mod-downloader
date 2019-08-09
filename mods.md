@@ -1,4 +1,4 @@
-## -------------------MODS-------------------------
+## MODS
 - Baubles
 - BloodMagic
 - NotEnoughItems
