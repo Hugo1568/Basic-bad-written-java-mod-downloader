@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Lastest mods",
+      "name" : "awa_mods",
+      "version" : "2019-08-09-18-57-22",
+      "location" : "awa_mods.json",
+      "priority" : 0
+    }
+  ]
+}
