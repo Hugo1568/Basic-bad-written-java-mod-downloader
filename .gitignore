@@ -25,3 +25,7 @@ MLauncher/build/classes/mlauncher/ServerData.class
 *.class
 *.xml
 *.properties
+
+/MLauncher/nbproject/private/
+/MLauncher/build/
+/MLauncher/dist/
