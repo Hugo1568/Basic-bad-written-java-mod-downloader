@@ -27,6 +27,7 @@ public class Installation extends javax.swing.JPanel {
     private String ZIP_FILE_URL;
     private String INPUT_ZIP_FILE;
     private String OUTPUT_FOLDER;
+    private String user_mod_folder;
 
     /**
      * Creates new form Installation
@@ -35,6 +36,9 @@ public class Installation extends javax.swing.JPanel {
         initComponents();
         setPreferredSize( new Dimension( 400, 100 ) );
         setVisible(true);
+        
+        String userprofile = System.getenv("USERPROFILE");
+        user_mod_folder = userprofile + "/AppData/Roaming/.minecraft/mods";  
     }
     //Download + Unzip retrieved from: https://gist.github.com/phaniram/6233013
     public static void copyInputStream(InputStream in, OutputStream out)
@@ -139,7 +143,7 @@ public class Installation extends javax.swing.JPanel {
     private void btnInstallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInstallActionPerformed
     ZIP_FILE_URL = "https://hugo1568.github.io/Basic-bad-written-java-mod-downloader/launcher/upload/mods/TEST.zip";
     INPUT_ZIP_FILE = "TEST.zip";
-    OUTPUT_FOLDER = "/Users/panqu/AppData/Roaming/.minecraft/mods";
+    OUTPUT_FOLDER = user_mod_folder;
     
     downloadFile();
     unZipIt();
