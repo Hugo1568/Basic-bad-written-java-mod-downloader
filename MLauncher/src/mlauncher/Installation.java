@@ -119,6 +119,19 @@ public class Installation extends javax.swing.JPanel {
             System.err.println("Unhandled exception:");
         }
     }
+    
+    public void deleteZip(){
+        File file = new File(this.INPUT_ZIP_FILE); 
+          
+        if(file.delete()) 
+        { 
+            System.out.println("File deleted successfully"); 
+        } 
+        else
+        { 
+            System.out.println("Failed to delete the file"); 
+        }
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -142,11 +155,12 @@ public class Installation extends javax.swing.JPanel {
 
     private void btnInstallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInstallActionPerformed
     ZIP_FILE_URL = "https://hugo1568.github.io/Basic-bad-written-java-mod-downloader/launcher/upload/mods/TEST.zip";
-    INPUT_ZIP_FILE = "TEST.zip";
+    INPUT_ZIP_FILE = "TEST.zipped";
     OUTPUT_FOLDER = user_mod_folder;
     
     downloadFile();
     unZipIt();
+    deleteZip();
     }//GEN-LAST:event_btnInstallActionPerformed
 
 
